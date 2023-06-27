@@ -2,7 +2,7 @@
 A smart contract for an NFT collection, implementing metatransactions and ContextMixin
 
 ## TL;DR
-The MyNFT contract is a robust and flexible framework for creating, managing, and trading non-fungible tokens (NFTs) on the Ethereum blockchain. It leverages the OpenZeppelin library to implement standards-compliant NFTs and includes additional features such as role-based access control, royalty payments, and meta-transactions. However, it currently lacks upgradability and may require further optimization for gas efficiency, and is not finished testing. It compiles without warnings and errors in solidity compiler 0.8.19+commit.7dd6d404
+The MyNFT contract is a robust and flexible framework for creating, managing, and trading non-fungible tokens (NFTs) on the Ethereum blockchain. It leverages the OpenZeppelin library to implement standards-compliant NFTs and includes additional features such as role-based access control, royalty payments, and meta-transactions. However, it currently lacks upgradability and may require further optimization for gas efficiency, and is not finished testing. While ERC2771Context is implemented, metatransactions require a trusted forwarder that is beyond the scope of this project. It compiles without warnings and errors in solidity compiler 0.8.19+commit.7dd6d404
 
 ## MyNFT
 MyNFT is a smart contract for creating, managing, and trading non-fungible tokens (NFTs) on the Ethereum blockchain. It is built using Solidity and the OpenZeppelin library, and it includes features such as role-based access control, royalty payments, and meta-transactions.
