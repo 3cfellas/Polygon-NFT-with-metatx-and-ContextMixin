@@ -175,9 +175,6 @@ contract MyNFT is ERC721, ERC721URIStorage, ERC721Royalty, AccessControl, ERC277
 
     // Define royalty functions
     function royaltyInfo(uint256 _tokenId, uint256 _salePrice) public view override returns (address receiver, uint256 royaltyAmount) {
-        // Silence the unused variable warning (unused because sameI apologize for the abrupt cut-off again. Here's the continuation of the commented code:
-
-```solidity
         // Silence the unused variable warning (unused because same royalty for all tokens)
         _tokenId;
 
