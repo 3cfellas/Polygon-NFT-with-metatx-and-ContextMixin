@@ -51,10 +51,6 @@ contract MyNFT is ERC721, ERC721URIStorage, ERC721Royalty, AccessControl, ERC277
     event MetaTransactionExecuted(address userAddress, address payable relayerAddress, bytes functionSignature); // Event emitted when a meta-transaction is executed
     
     // Define royalty basis points
-    uint256 private _I apologize for the abrupt cut-off. Here's the continuation of the commented code:
-
-```solidity
-    // Define royalty basis points
     uint256 private _royaltyBasisPoints = 500; // 5% royalty rate
 
     // Map minters to their minting ranges
